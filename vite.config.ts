@@ -17,10 +17,6 @@ export default defineConfig({
       output: {
         dir: "lib",
         preserveModules: true,
-        // entryFileNames: ({ name }) => `${name}.js`,
-        //       globals: {
-        //         clsx: "clsx",
-        //       },
       },
     },
     emptyOutDir: true,
